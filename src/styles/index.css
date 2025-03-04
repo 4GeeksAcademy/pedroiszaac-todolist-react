@@ -9,3 +9,35 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.trash {
+    color:rgb(131, 131, 152);
+    background-color: white;
+    border: none;
+    padding-left: 45px;
+}
+
+.container {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5vh;
+}
+
+.list-group-item {
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: space-between;
+}
+
+.counter {
+    padding-top: 5px;
+    color: rgb(181, 181, 181);
+    font-size: 1.3vh;
+}
+
+.icon {
+    cursor: pointer;
+}
